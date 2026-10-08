@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Class Timetable</title>
+
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 12px 8px;
+        }
+
+        th {
+            background-color: pink;
+        }
+
+
+
+        .day {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        
+        <tr>
+            <th>Day</th>
+            <th>9:00-9:55</th>
+            <th>9:55-10:50</th>
+            <th>11:10-12:05</th>
+            <th>12:05-1:00</th>
+            <th>1:00-2:00</th>
+            <th>2:00-3:00</th>
+            <th>3:00-4:00</th>
+            <th>4:00-5:00</th>
+        </tr>
+
+        <tr>
+            <td class="day">MONDAY</td>
+            <td>CN(UNM)</td>
+            <td>PC1(HR<br>C/APM/<br>PJM)</td>
+            <td>FSD(HML)</td>
+            <td>ATC(DSH)</td>
+            <td rowspan="7">LUNCH BREAK</td>
+
+            <td colspan="2">CN LAB(UNM/PMR)<br>FSD LAB(HML/PJC)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="day">TUESDAY</td>
+            <td colspan="2">CN LAB(UNM/DNF)<br>/FSD LAB(HML/SGM)</td>
+            <td>ATC(DSH)</td>
+            <td>PC1(NF1/APM/PJM)</td>
+            <td colspan="3">MAD LAB(PJM/APM/RAN)</td>
+        </tr>
+
+        <tr>
+            <td class="day">WEDNESDAY</td>
+            <td>FSD(HML)</td>
+            <td>SE(VBD)</td>
+            <td>ATC(DSH)</td>
+            <td>RMI(SGP)</td>
+            <td colspan="2">MENTORING</td>
+            <td>DEPARTMENT /<br>STUDENT ACTIVITIES</td>
+        </tr>
+
+        <tr>
+            <td class="day">THURSDAY</td>
+            <td colspan="2">ETP(RAN)</td>
+            <td>CN(UNM)</td>
+            <td>SE(VBD)</td>
+            <td>MAD PBL<br>(PJM/DNF)</td>
+            <td>RMI(SGP)</td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="day">FRIDAY</td>
+            <td>FSD(HML)</td>
+            <td>SE(VBD)</td>
+            <td>ATC(DSH)</td>
+            <td>PC1(HRC/APM/PJM)</td>
+            <td>CN(UNM)</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="day">SATURDAY</td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+            <td colspan="2"></td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
